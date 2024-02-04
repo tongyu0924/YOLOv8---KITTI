@@ -1,7 +1,8 @@
 # YOLOv8---KITTI
 Reference : https://github.com/shreydan/yolo-object-detection-kitti/tree/main
 
-### convert data to yolo format
+### Prepare data
+convert data to yolo format
 ```
 python generate_dataset.py
 ```
