@@ -1,5 +1,5 @@
 # YOLOv8---KITTI
-reference : https://github.com/shreydan/yolo-object-detection-kitti/tree/main
+Reference : https://github.com/shreydan/yolo-object-detection-kitti/tree/main
 
 ### convert data to yolo format
 ```
