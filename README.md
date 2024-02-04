@@ -2,14 +2,14 @@
 reference : https://github.com/shreydan/yolo-object-detection-kitti/tree/main
 
 ### convert data to yolo format
-`
+```
 python generate_dataset.py
-`
+```
 
 ### Train
-`
+```
 python train.py
-`
+```
 
 ### Test
 ```
