@@ -9,8 +9,8 @@ Dataset :
 
 https://www.kaggle.com/datasets/klemenko/kitti-dataset
 
-### Prepare data
-#### convert data to yolo format
+## Prepare data
+### convert data to yolo format
 
 yolo format : [class, x_center, y_center, width, height]
 
@@ -19,12 +19,12 @@ x_center, y_center, width, height need to be 0 ~ 1
 python generate_dataset.py
 ```
 
-### Train
+## Train
 ```
 python train.py
 ```
 
-### Test
+## Test
 ```
 model = YOLO("runs/detect/train/weights/last.pt")
 test = Image.open("test.png")
