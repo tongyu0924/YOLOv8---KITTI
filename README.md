@@ -1,5 +1,11 @@
 # YOLOv8---KITTI
 reference : https://github.com/shreydan/yolo-object-detection-kitti/tree/main
+
+### convert data to yolo format
+`
+python generate_dataset.py
+`
+
 ### Test
 ```
 model = YOLO("runs/detect/train/weights/last.pt")
