@@ -12,7 +12,7 @@ https://www.kaggle.com/datasets/klemenko/kitti-dataset
 ### Prepare data
 convert data to yolo format
 
-yolo format : [class, x_center, y_center, width, height] (x, y, w, h need to be 0 ~ 1)
+yolo format : [class, x_center, y_center, width, height]  (x, y, w, h need to be 0 ~ 1)
 ```
 python generate_dataset.py
 ```
