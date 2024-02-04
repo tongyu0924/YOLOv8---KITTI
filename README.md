@@ -6,6 +6,11 @@ reference : https://github.com/shreydan/yolo-object-detection-kitti/tree/main
 python generate_dataset.py
 `
 
+### Train
+`
+python train.py
+`
+
 ### Test
 ```
 model = YOLO("runs/detect/train/weights/last.pt")
