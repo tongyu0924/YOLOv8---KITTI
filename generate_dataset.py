@@ -42,11 +42,14 @@ for idx in range(21):
     y = pd.read_csv(f'kitti_label/{idx:06d}.txt', sep=' ', header=None)
     y.columns = label_cols
     print(classes[y.iloc[0, :][0]])
+    label = []
     for j in range(y.shape[0]):
         print(y.shape)
-        label = [str(classes[y.iloc[0, :][0]]), ' ']
-        label += convertToYoloBBox(y.iloc[j, :], Image.open(file).size)
-        print(label)
+        if y.iloc[j, :][0] != "DontCare":
+
+            label += [str(classes[y.iloc[j, :][0]]), ' ']
+            label += convertToYoloBBox(y.iloc[j, :], Image.open(file).size)
+            print(label)
 
     path = f'train/labels/{idx:06d}.txt'
     f = open(path, 'w')
