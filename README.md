@@ -33,3 +33,8 @@ for r in results:
     cv2.imshow("result", img) 
     cv2.waitKey(0)
 ```
+
+result :
+
+![image](https://github.com/tongyu0924/YOLOv8---KITTI/assets/119610311/f94bd9a9-6a94-4df8-a041-a0d3bc4650b7)
+
