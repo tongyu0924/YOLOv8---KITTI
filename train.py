@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-#reference : https://docs.ultralytics.com/zh/datasets/detect/#usage
+# reference : https://docs.ultralytics.com/zh/datasets/detect/#usage
 # Load a model
 model = YOLO("yolov8n.pt") # load a pretrained model
 
