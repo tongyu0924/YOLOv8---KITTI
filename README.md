@@ -25,7 +25,7 @@ python train.py
 ### Test
 ```
 model = YOLO("runs/detect/train/weights/last.pt")
-test = Image.open("C:/Users/user/Downloads/000001.png")
+test = Image.open("test.png")
 results = model(test)
 
 for r in results:
@@ -38,5 +38,6 @@ for r in results:
 
 result :
 
-![image](https://github.com/tongyu0924/YOLOv8---KITTI/assets/119610311/f94bd9a9-6a94-4df8-a041-a0d3bc4650b7)
+![image](https://github.com/tongyu0924/YOLOv8---KITTI/assets/119610311/fd012d2f-0b92-40da-91b6-fda705829912)
+
 
